@@ -2,13 +2,33 @@
   box-sizing: border-box;
 }
 
+.nav{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgb(104, 104, 109);
+  list-style: none;
+  color:rgb(104, 104, 109)ge;
+
+}
+.nav-list{
+  list-style: none;
+}
+#name{
+  background-color: aqua;
+  margin: 20px;
+  margin-right: auto;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
-
+button{
+  background-color: aqua;
+}
 h1,
 h2,
 h3,
@@ -21,3 +41,4 @@ h6 {
 p {
   margin: 0;
 }
+
